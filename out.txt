@@ -1,0 +1,147 @@
+==> VBF selection method : Select pair with highest mjj...
+Apply trigger: 1
+eos find -f eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8  | awk '!/log|fail/ {print $1}' | awk 'NF {print "root://eoscms.cern.ch/"$1}' > listTemp_outputfile.root.txt
+==> Total number of input files : 16
+	 File no. 0; Neg Event Count; read entry: 0/9878
+	 File no. 5; Neg Event Count; read entry: 50000/59243
+	 File no. 10; Neg Event Count; read entry: 100000/100147
+==> Total number of events : 149993
+==> Total number of negative events : 0
+Weight of cross-sec/events = 1.79742e-07
+---------start loop on events------------
+
+
+=====	Processing File Number : 0/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_1.root
+-------
+	==> Entries = 9878
+	read entry: 0/149993
+
+
+=====	Processing File Number : 1/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_10.root
+-------
+	==> Entries = 9927
+	read entry: 10000/149993
+
+
+=====	Processing File Number : 2/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_11.root
+-------
+	==> Entries = 10080
+	read entry: 20000/149993
+
+
+=====	Processing File Number : 3/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_12.root
+-------
+	==> Entries = 9751
+	read entry: 30000/149993
+
+
+=====	Processing File Number : 4/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_13.root
+-------
+	==> Entries = 9268
+	read entry: 40000/149993
+
+
+=====	Processing File Number : 5/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_14.root
+-------
+	==> Entries = 10339
+	read entry: 50000/149993
+
+
+=====	Processing File Number : 6/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_15.root
+-------
+	==> Entries = 10030
+	read entry: 60000/149993
+
+
+=====	Processing File Number : 7/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_16.root
+-------
+	==> Entries = 1235
+	read entry: 70000/149993
+
+
+=====	Processing File Number : 8/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_2.root
+-------
+	==> Entries = 9880
+	read entry: 80000/149993
+
+
+=====	Processing File Number : 9/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_3.root
+-------
+	==> Entries = 9880
+	read entry: 90000/149993
+
+
+=====	Processing File Number : 10/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_4.root
+-------
+	==> Entries = 9879
+	read entry: 100000/149993
+
+
+=====	Processing File Number : 11/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_5.root
+-------
+	==> Entries = 9880
+	read entry: 110000/149993
+
+
+=====	Processing File Number : 12/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_6.root
+-------
+	==> Entries = 9879
+
+
+=====	Processing File Number : 13/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_7.root
+-------
+	==> Entries = 10080
+	read entry: 120000/149993
+
+
+=====	Processing File Number : 14/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_8.root
+-------
+	==> Entries = 9927
+	read entry: 130000/149993
+
+
+=====	Processing File Number : 15/16
+	root://eoscms.cern.ch//eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8/Samples/181127_192821/0000/Output_9.root
+-------
+	==> Entries = 10080
+	read entry: 140000/149993
+---------end loop on events------------
+
+GEN events = 65713
+----------------------
+ SUMMARY
+----------------------
+
+MC matching: -nan
+negative events: 0
+
+(0) all events:        149993	:	100
+(1) Gen Events:        23246	:	15.4981
+(2) tight lepton:      28371	:	18.9149
+(3) DileptonMass:               14251	:	50.2309
+(4) (Dilepton-Z)Mass:  9345	:	65.5743
+(5) MET:        7702	:	82.4184
+(6) >=2 good VBF jets:       7170	:	93.0927
+(7) VBF jets: 5775	:	80.5439
+(8) Eta jets:  5243	:	90.7879
+(9) ZeppenCut: 90	:	1.71657
+
+==> time to run this code = 5.367 min
+==> Not a aMC@NLO sample
+==> Name =  46
+==>  produceWWNtuples eos/cms/store/user/arapyan/Run2/WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8 outputfile.root 1 lxplus Events WpWpJJ_EWK_TuneCUETP8M1_13TeV-madgraph-pythia8 0.02696 149993 0 1 /afs/cern.ch/cms/CAF/CMSCOMM/COMM_DQM/certification/Collisions16/13TeV/ReReco/Final/Cert_271036-284044_13TeV_23Sep2016ReReco_Collisions16_JSON.txt 0 2
